@@ -1,9 +1,10 @@
 .Header {
     position: fixed;
     width: 100%;
-    padding: 50px 0;
+    padding: 30px 0;
     z-index: 100;
     display: flex;
+    background-color: rgba(0, 0, 0, 1.0);
 }
 
 .HeaderImage{
@@ -14,7 +15,7 @@
     max-width: 800px;
     text-align: center;
     display: grid;
-    grid-template-columns: repeat(4, 150px);
+    grid-template-columns: repeat(1, 150px);
     align-items: center;
     justify-items: right;
     margin-right: 50px;
@@ -44,7 +45,7 @@
     background: #00bd6e;
     border-radius: 20px;
     border: none;
-    font-weight: 700;
+    font-weight: 500;
     outline: none;
     cursor: pointer;
     transition: 0.8s cubic-bezier(0.2, 0.8, 0.2, 1.0);
@@ -64,11 +65,16 @@
         padding: 15px 0;
     }
 
-    .HeaderGroup {
-        grid-template-columns: repeat(3, auto);
+    .HeaderImage{
+        margin-right: 20px;
+        margin-left: 20px;
     }
 
-    .Header a:nth-child(3) {
-        display: none;
+    .HeaderGroup{
+        margin-right: 10px;
+    }
+
+    .Header a {
+       margin-right: 10px;
     }
 }
