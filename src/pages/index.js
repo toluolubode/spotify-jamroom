@@ -14,7 +14,7 @@ const IndexPage = () => (
           <img src={require('../images/hero-image.svg')} width="250" />
       </div>
       </div>
-      <div className="">
+      <div className="HeroImage2">
       <svg width="100%" height="172" viewBox="0 0 100% 172" fill="none">
           <path fill="#00bd6e">
           <animate repeatCount="indefinite" fill="freeze" attributeName="d" dur="10s"
@@ -29,8 +29,60 @@ const IndexPage = () => (
         </svg>
         <img src={require('../images/video-img.png')} width="100%" />
       </div>
-      
-      
+      {/* First Section */}
+      <div className="Section1">
+        <div className="SectionText">
+          <h1>
+            Create a Jamroom
+          </h1>
+          <img src={require('../images/text-underline.svg')} width="150" />
+          <p>
+          Name a jamroom anything you want. <br></br> 
+          Inside jokes between friends are good too.
+          </p>
+        </div>
+        <img src={require('../images/jamroom-name-entered.svg')} width="300" />
+      </div>
+      {/* Second Section */}
+      <div className="Section1-right">
+        <div className="SectionText">
+          <h1>
+            Add friends
+          </h1>
+          <img src={require('../images/text-underline.svg')} width="150" />
+          <p>
+          Search for friends and family on the Spotify<br></br>  platform and instantly add them to your<br></br>  jamroom.
+          </p>
+        </div>
+        <img src={require('../images/inside-jamroom.svg')} width="300" />
+      </div>
+       {/* Third Section */}
+       <div className="Section1">
+        <div className="SectionText">
+          <h1>
+            Add your favorite <br></br>songs
+          </h1>
+          <img src={require('../images/text-underline.svg')} width="150" />
+          <p>
+          That song you all love singing? Add it into the <br></br> 
+          jamroom and now everyone can sing it too.
+          </p>
+        </div>
+        <img src={require('../images/inside-jamroom.svg')} width="300" />
+      </div>
+      {/* Fourth Section */}
+      <div className="Section1-right">
+        <div className="SectionText">
+          <h1>
+            Jam out!
+          </h1>
+          <img src={require('../images/text-underline.svg')} width="150" />
+          <p>
+          Jam out and rock on! Be as loud as you want.<br></br>We don’t mind.
+          </p>
+        </div>
+        <img src={require('../images/inside-jamroom.svg')} width="300" />
+      </div>
 
     </div>
   </div>

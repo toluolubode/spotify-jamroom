@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Cabin:400,400i,500,500i,600,600i,700,700i');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-body {
+
+
+html, body {
+  background-color: black;
   font-family: 'Cabin', sans-serif;
   margin: 0;
   -webkit-font-smoothing: antialiased;
@@ -35,6 +38,10 @@ a {
   margin: 0 auto;
   margin-top: 65px;
   text-align: center;
+}
+
+.HeroImage2{
+  background-color: black;
 }
 
 .Hero svg {
@@ -105,4 +112,96 @@ a {
       transform: translateY(0px)
   }
 }
+
+.Section1{
+  background-color: black;
+  margin: 0 auto;
+  max-width: 800px;
+  padding-top: 100px;
+  padding-bottom:0;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+.Section1-right{
+  background-color: black;
+  margin: 0 auto;
+  max-width: 800px;
+  padding-top: 100px;
+  padding-bottom:300px;
+  padding-right: 50px;
+  padding-left: 50px;
+  text-align: center;
+}
+
+.Section1 .SectionText{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 100px;
+  margin-right: 50px;
+  text-align: left;
+}
+
+.Section1-right .SectionText{
+  display: inline-block;
+  vertical-align: top;
+  margin-top: 100px;
+  margin-left: 50px;
+  text-align: left;
+}
+
+.Section1 .SectionText img{
+  display: block;
+}
+
+.Section1-right .SectionText img{
+  display: block;
+}
+
+
+
+.Section1 .SectionText p{
+  display: block;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.Section1-right .SectionText p{
+  display: block;
+  font-size: 20px;
+  font-weight: 100;
+  text-align: left;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.Section1 h1{
+  color: white;
+  font-size: 50px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Section1-right h1{
+  color: white;
+  font-size: 50px;
+  text-align: left;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.Section1-right img{
+  float: left;
+}
+
+.Section1-right .SectionText img{
+  float: none;
+}
+
+
+
 
