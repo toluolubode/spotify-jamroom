@@ -30,6 +30,7 @@ const IndexPage = () => (
         <img src={require('../images/video-img.png')} width="100%" />
       </div>
       
+      
 
     </div>
   </div>
