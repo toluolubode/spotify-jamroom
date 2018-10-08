@@ -31,7 +31,7 @@ const IndexPage = () => (
       </div>
       {/* First Section */}
       <div className="Section1">
-        <div className="SectionText">
+        <div className="SectionText" id="namejamroom">
           <h1>
             Create a Jamroom
           </h1>
@@ -45,7 +45,7 @@ const IndexPage = () => (
       </div>
       {/* Second Section */}
       <div className="Section1-right">
-        <div className="SectionText">
+        <div className="SectionText" id="addfriends">
           <h1>
             Add friends
           </h1>
@@ -58,7 +58,7 @@ const IndexPage = () => (
       </div>
        {/* Third Section */}
        <div className="Section1">
-        <div className="SectionText">
+        <div className="SectionText" id="addsongs">
           <h1>
             Add your favorite <br></br>songs
           </h1>
@@ -72,7 +72,7 @@ const IndexPage = () => (
       </div>
       {/* Fourth Section */}
       <div className="Section1-right">
-        <div className="SectionText">
+        <div className="SectionText" id="jamout">
           <h1>
             Jam out!
           </h1>
@@ -81,7 +81,7 @@ const IndexPage = () => (
           Jam out and rock on! Be as loud as you want.<br></br>We don’t mind.
           </p>
         </div>
-        <img src={require('../images/inside-jamroom.svg')} width="300" />
+        <img src={require('../images/jamroom-created.svg')} width="300" />
       </div>
 
     </div>

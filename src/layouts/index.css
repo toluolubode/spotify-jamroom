@@ -123,6 +123,18 @@ a {
   padding-left: 50px;
   text-align: center;
 }
+@media (max-width:640px){
+  .Section1{
+   padding-top: 0px;
+  }
+  .Hero .Section1 img {
+    width: 250px;
+  }
+  .Hero .Section1-right img {
+    width: 250px;
+  }
+}
+
 .Section1-right{
   background-color: black;
   margin: 0 auto;
@@ -134,12 +146,33 @@ a {
   text-align: center;
 }
 
+@media (max-width:640px){
+  .Section1-right{
+    padding-top: 50px;
+    padding-bottom: 0px;
+  }
+}
+
 .Section1 .SectionText{
   display: inline-block;
   vertical-align: top;
   margin-top: 100px;
   margin-right: 50px;
   text-align: left;
+}
+@media (max-width:640px){
+  .Section1 .SectionText{
+    margin-top: 0px;
+    margin-right: 10px;
+  }
+
+  #addsongs.SectionText{
+    margin-top: 50px;
+  }
+
+  #addsongs.SectionText h1 br{
+    display: none;
+  }
 }
 
 .Section1-right .SectionText{
@@ -149,6 +182,17 @@ a {
   margin-left: 50px;
   text-align: left;
 }
+
+@media (max-width:640px){
+  .Section1-right .SectionText{
+    margin-top: 0px;
+    margin-left: 0px;
+  }
+  .Section1-right .SectionText p br{
+    display: none;
+  }
+}
+
 
 .Section1 .SectionText img{
   display: block;
@@ -168,6 +212,13 @@ a {
   margin-top: 15px;
   margin-bottom: 20px;
 }
+
+@media (max-width:640px){
+  .Section1 .SectionText p br{
+    display: none;
+  }
+}
+
 
 .Section1-right .SectionText p{
   display: block;
@@ -197,7 +248,11 @@ a {
 .Section1-right img{
   float: left;
 }
-
+@media (max-width:640px){
+  .Section1-right img{
+    float: none;
+  }
+}
 .Section1-right .SectionText img{
   float: none;
 }
