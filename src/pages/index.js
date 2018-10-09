@@ -78,7 +78,7 @@ const IndexPage = () => (
           </h1>
           <img src={require('../images/text-underline.svg')} width="150" />
           <p>
-          Jam out and rock on! Be as loud as you want.<br></br>We don’t mind.
+          Jam out and rock on! Be as loud as you want.<br></br> We don’t mind.
           </p>
         </div>
         <img src={require('../images/jamroom-created.svg')} width="300" />
