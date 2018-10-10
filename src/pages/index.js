@@ -1,6 +1,7 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/header'
+import Footer from '../components/footer'
 
 const IndexPage = () => (
   <div>
@@ -83,7 +84,18 @@ const IndexPage = () => (
         </div>
         <img src={require('../images/jamroom-created.svg')} width="300" />
       </div>
-
+      <div className="Testimonial">
+      <img id="confetti-1" src={require('../images/confetti.svg')} width='45' />
+      <img id="confetti-2" src={require('../images/confetti.svg')} width='45' />
+      <p id="testimonial">
+        I genuinely love this! Dance sessions with<br></br> my sister and
+        my friends are so much fun now
+      </p>
+      <p id="testimonial-name">
+        -Melissa Valencia
+      </p>
+      <img src={require('../images/Slider.svg')} width='45' />
+    </div>
     </div>
   </div>
 )
