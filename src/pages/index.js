@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/header'
 import Footer from '../components/footer'
+import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 const IndexPage = () => (
   <div>
@@ -94,7 +95,7 @@ const IndexPage = () => (
       <p id="testimonial-name">
         -Melissa Valencia
       </p>
-      <img src={require('../images/Slider.svg')} width='45' />
+      <img id="slider" src={require('../images/Slider.svg')} width='45' />
     </div>
     </div>
   </div>

@@ -267,10 +267,25 @@ a {
   padding-bottom: 100px;
 }
 
+@media (max-width:640px){
+  .Testimonial{
+    max-width: 315px;
+  }
+}
+
 .Testimonial p{
   color: white;
   font-size: 25px;
   margin-bottom: 10px;
+}
+
+@media (max-width:640px){
+  .Testimonial p{
+   font-size: 20px;
+  }
+  .Testimonial p br{
+    display: none;
+  }
 }
 
 .Testimonial p#testimonial-name{
@@ -287,5 +302,9 @@ a {
   transform: rotate(80deg);
 }
 
-
+@media (max-width:640px){
+  .Testimonial img{
+    width: 30px;
+  }
+}
 
