@@ -86,7 +86,7 @@ a {
   background: #00bd6e;
   color: white;
 }
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .HeroGroup {
     padding-top: 100px;
     padding-left: 20px;
@@ -123,7 +123,7 @@ a {
   padding-left: 50px;
   text-align: center;
 }
-@media (max-width:640px){
+@media (max-width:768px){
   .Section1{
    padding-top: 0px;
   }
@@ -146,7 +146,7 @@ a {
   text-align: center;
 }
 
-@media (max-width:640px){
+@media (max-width:768px){
   .Section1-right{
     padding-top: 50px;
     padding-bottom: 0px;
@@ -160,7 +160,7 @@ a {
   margin-right: 50px;
   text-align: left;
 }
-@media (max-width:640px){
+@media (max-width:768px){
   .Section1 .SectionText{
     margin-top: 0px;
     margin-right: 10px;
@@ -183,7 +183,7 @@ a {
   text-align: left;
 }
 
-@media (max-width:640px){
+@media (max-width:768px){
   .Section1-right .SectionText{
     margin-top: 0px;
     margin-left: 0px;
@@ -213,7 +213,7 @@ a {
   margin-bottom: 20px;
 }
 
-@media (max-width:640px){
+@media (max-width:768px){
   .Section1 .SectionText p br{
     display: none;
   }
@@ -248,7 +248,7 @@ a {
 .Section1-right img{
   float: left;
 }
-@media (max-width:640px){
+@media (max-width:768px){
   .Section1-right img{
     float: none;
   }
@@ -267,9 +267,10 @@ a {
   padding-bottom: 100px;
 }
 
-@media (max-width:640px){
+@media (max-width:768px){
   .Testimonial{
     max-width: 315px;
+    padding-top: 25px;
   }
 }
 
@@ -279,7 +280,7 @@ a {
   margin-bottom: 10px;
 }
 
-@media (max-width:640px){
+@media (max-width:768px){
   .Testimonial p{
    font-size: 20px;
   }
@@ -302,7 +303,7 @@ a {
   transform: rotate(80deg);
 }
 
-@media (max-width:640px){
+@media (max-width:768px){
   .Testimonial img{
     width: 30px;
   }

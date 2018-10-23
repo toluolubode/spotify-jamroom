@@ -1,8 +1,6 @@
 import React from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/header'
-import Footer from '../components/footer'
-import addToMailchimp from 'gatsby-plugin-mailchimp'
 
 const IndexPage = () => (
   <div>
