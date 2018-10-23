@@ -2,15 +2,22 @@ import React from 'react'
 import Link from 'gatsby-link'
 import Header from '../components/header'
 
+// For window and build
+if (typeof window !== `undefined`) {
+  const AOS = require("aos")
+  AOS.init();
+}
+import 'aos/dist/aos.css';
+
 const IndexPage = () => (
   <div>
     <Header />
     <div className="Hero">
-      <div className="HeroGroup">
+      <div className="HeroGroup" data-aos="fade-up">
         <h1>A New Way to Jam Out</h1>
         <p>Create and share playlists with friends</p>
         <Link to="/video">Join the Party</Link>
-        <div className="HeroImage">
+        <div className="HeroImage" data-aos="fade-up">
           <img src={require('../images/hero-image.svg')} width="250" />
       </div>
       </div>
@@ -27,10 +34,10 @@ const IndexPage = () => (
             M0 25.9086C277 84.5821 433 65.736 720 25.9086C934.818 -3.9019 1214.06 -5.23669 1442 8.06597C2079 45.2421 2208 63.5007 2560 25.9088V171.91L0 171.91V25.9086Z;" />
           </path>
         </svg>
-        <img src={require('../images/video-img.png')} width="100%" />
+        <img src={require('../images/video-img.png')} width="100%" data-aos="fade"/>
       </div>
       {/* First Section */}
-      <div className="Section1">
+      <div className="Section1" data-aos="fade-right">
         <div className="SectionText" id="namejamroom">
           <h1>
             Create a Jamroom
@@ -44,7 +51,7 @@ const IndexPage = () => (
         <img src={require('../images/jamroom-name-entered.svg')} width="300" />
       </div>
       {/* Second Section */}
-      <div className="Section1-right">
+      <div className="Section1-right" data-aos="fade-left">
         <div className="SectionText" id="addfriends">
           <h1>
             Add friends
@@ -57,7 +64,7 @@ const IndexPage = () => (
         <img src={require('../images/inside-jamroom.svg')} width="300" />
       </div>
        {/* Third Section */}
-       <div className="Section1">
+       <div className="Section1" data-aos="fade-right">
         <div className="SectionText" id="addsongs">
           <h1>
             Add your favorite <br></br>songs
@@ -71,7 +78,7 @@ const IndexPage = () => (
         <img src={require('../images/inside-jamroom.svg')} width="300" />
       </div>
       {/* Fourth Section */}
-      <div className="Section1-right">
+      <div className="Section1-right" data-aos="fade-left">
         <div className="SectionText" id="jamout">
           <h1>
             Jam out!
@@ -83,7 +90,7 @@ const IndexPage = () => (
         </div>
         <img src={require('../images/jamroom-created.svg')} width="300" />
       </div>
-      <div className="Testimonial">
+      <div className="Testimonial" data-aos="fade">
       <img id="confetti-1" src={require('../images/confetti.svg')} width='45' />
       <img id="confetti-2" src={require('../images/confetti.svg')} width='45' />
       <p id="testimonial">
