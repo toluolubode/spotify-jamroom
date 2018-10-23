@@ -20,6 +20,9 @@ const Layout = ({ children, data }) => (
       meta={[
         { name: 'description', content: 'Spotify Jamroom: A new way to share music with loved ones' },
         { name: 'keywords', content: 'spotify jamroom, spotify, music' },
+        { name: 'twitter:card', content:'Spotify Jamroom: A new way to share music with loved ones'},
+        { name:'twitter:site', content:'Spotify Jamroom'},
+        { name: 'image', content: icon16},
       ]}
       link={[
         { rel: 'shortcut icon', type: 'image/png', href: `${icon16}` }
